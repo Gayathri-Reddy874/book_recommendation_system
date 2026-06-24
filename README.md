@@ -1,4 +1,4 @@
-# 📚 Folio — Book Recommendation System
+# 📚 Folio - Book Recommendation System
 
 Folio is a beautifully designed **Content-Based Book Recommendation System** built using **Python**, **Machine Learning**, and **Streamlit**.  
 It recommends books similar to a selected title using **Cosine Similarity** and **Count Vectorization**, delivering fast and intelligent suggestions through an interactive web interface.
@@ -137,6 +137,7 @@ streamlit run Book_recommendation_app.py
 ## 👩‍💻 Author
 
 **Developed by:** Mallareddygari Gayathri 
+AI & ML Engineer
 
 ---
 
