@@ -149,7 +149,9 @@ The app opens at `http://localhost:8501`. Pick a book from the dropdown, click *
 ## 👩‍💻 Author
 
 **Mallareddygari Gayathri**
+
 AI/ML Engineer
+
 [GitHub](https://github.com/Gayathri-Reddy874)
 
 ---
