@@ -76,7 +76,7 @@ book_recommendation_system/
 └── README.md
 ```
 
-> `books.pkl` and `similarity1.pkl` are build artifacts produced by `Book_recommendation_train.py`. **`similarity1.pkl` is not committed to this repo** (likely too large for plain Git), so you need to run the training script once after cloning before the app will start — see [Installation & Setup](#-installation--setup).
+> `books.pkl` and `similarity1.pkl` are build artifacts produced by `Book_recommendation_train.py`. **`similarity1.pkl` is not committed to this repo** (likely too large for plain Git), so you need to run the training script once after cloning before the app will start - see [Installation & Setup](#-installation--setup).
 
 ---
 
