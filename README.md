@@ -12,8 +12,8 @@ Folio is a **content-based book recommender** that suggests the top 5 books most
 
 ## ✨ Features
 
-- 📖 **Instant recommendations** — pick a book, get the 5 most similar titles
-- 🧠 **Content-based filtering** — uses title, author, category, and description text, not user ratings
+- 📖 **Instant recommendations** - pick a book, get the 5 most similar titles
+- 🧠 **Content-based filtering** - uses title, author, category, and description text, not user ratings
 - 🖼️ **Cover thumbnails** for every recommendation, with a graceful fallback when an image is missing
 - 🎨 **Custom editorial UI** — a warm, bookstore-inspired design built with hand-written CSS (Playfair Display + Lato typography) on top of Streamlit
 - ⚡ **Cached data loading** (`@st.cache_data`) so the dataset and similarity matrix load once per session
