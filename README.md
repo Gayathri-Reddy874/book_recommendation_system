@@ -131,7 +131,7 @@ The app opens at `http://localhost:8501`. Pick a book from the dropdown, click *
 ## ⚠️ Known Limitations
 
 - **Bag-of-words only** - `CountVectorizer` matches on shared vocabulary, not meaning, so books that are thematically similar but described with different words may be missed.
-- **No collaborative signal** — recommendations are based purely on metadata text; user ratings and reading behavior (`average_rating`, `ratings_count`) aren't factored into similarity yet.
+- **No collaborative signal** - recommendations are based purely on metadata text; user ratings and reading behavior (`average_rating`, `ratings_count`) aren't factored into similarity yet.
 - **Static similarity matrix** — adding a new book requires re-running the training script, since the similarity matrix isn't updated incrementally.
 - **Thumbnail coverage** — not every book in the source dataset has a thumbnail URL; the app falls back to a placeholder icon in those cases.
 
