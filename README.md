@@ -50,7 +50,7 @@ Folio is a **content-based book recommender** that suggests the top 5 books most
 The source file `books.xls` is actually comma-delimited text, so it's read with `pandas.read_csv`. Missing values in `title`, `authors`, `categories`, `description`, and `thumbnail` are filled with empty strings, and duplicate titles are dropped.
 
 **2. Tag construction**
-A single `tags` column is built by concatenating `title + authors + categories + description`, then lowercased — this is the text the model actually "reads."
+A single `tags` column is built by concatenating `title + authors + categories + description`, then lowercased - this is the text the model actually "reads."
 
 **3. Vectorization**
 `CountVectorizer(max_features=5000, stop_words='english')` turns each book's tags into a 5,000-dimension bag-of-words vector.
