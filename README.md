@@ -103,7 +103,7 @@ cd book_recommendation_system
 pip install -r requirements.txt
 ```
 
-### 3. Train the model (required — `similarity1.pkl` isn't included in the repo)
+### 3. Train the model (required - `similarity1.pkl` isn't included in the repo)
 ```bash
 python Book_recommendation_train.py
 ```
