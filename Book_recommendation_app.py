@@ -13,7 +13,7 @@ st.set_page_config(
 )
 
 # ─────────────────────────────────────────────
-# CUSTOM CSS  — warm editorial / bookstore feel
+# CUSTOM CSS  - warm editorial / bookstore feel
 # ─────────────────────────────────────────────
 st.markdown("""
 <style>
